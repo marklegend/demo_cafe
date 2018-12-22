@@ -4,7 +4,7 @@
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
@@ -16,7 +16,6 @@
 }
 
 .btn-primary {
-  background-color: $primary;
   border-color: $primary;
   &:hover,
   &:focus,
@@ -26,7 +25,7 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(239, 243, 31, 0.952) !important;
+    box-shadow: 0 0 0 0.2rem rgba(31, 123, 243, 0.952) !important;
   }
 }
 
