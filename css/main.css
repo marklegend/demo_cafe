@@ -313,8 +313,8 @@ header.masthead p {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(31, 123, 243, 0.952) !important;
-  box-shadow: 0 0 0 0.2rem rgba(31, 123, 243, 0.952) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(141, 141, 141, 0.493) !important;
+  box-shadow: 0 0 0 0.2rem rgba(141, 141, 141, 0.493) !important;
 }
 
 .modal-title {
@@ -330,4 +330,23 @@ header.masthead p {
   font-size: inherit;
   line-height: 1.5;
   color: #4e4e4e;
+}
+
+b, strong {
+  font-weight: 300 !important;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
 }

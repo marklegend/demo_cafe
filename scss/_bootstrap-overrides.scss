@@ -25,7 +25,7 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(31, 123, 243, 0.952) !important;
+    box-shadow: 0 0 0 0.2rem rgba(141, 141, 141, 0.493) !important;
   }
 }
 
@@ -42,4 +42,8 @@
   font-size: inherit;
   line-height: 1.5;
   color: rgb(78, 78, 78);
+}
+
+b, strong {
+  font-weight: 300 !important;
 }
