@@ -73,6 +73,13 @@
     scale: 0
   });
 
+  //Modal 
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+
+
   // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',

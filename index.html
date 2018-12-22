@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="A Restaurant template ">
+    <meta name="author" content="Phenyo M E Mokgadi">
 
     <title>Tino's Kitchen</title>
 
@@ -63,14 +63,111 @@
             </h1>
             <hr>
           </div>
+
+          <!-- Button trigger modal -->
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">reservation</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#Modal" >reservation</a>
+          </div>
+
+            <!-- Modal -->
+          <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLabel">Reservation Form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputName" class="col-form-label">First Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="First Name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputLast" class="col-form-label">Surname</label>
+                        <input type="text" class="form-control" id="inputLast" placeholder="Surname">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress" class="col-form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPhone" class="col-form-label">Phone No.</label>
+                      <input type="tel" class="form-control" id="inputPhone" placeholder="Cell Phone No.">
+                    </div>
+                    <div class="form-row">
+                      
+                      <div class="form-group col-md-4">
+                        <label for="inputPerson" class="col-form-label">Person</label>
+                        <select name="Person" id="inputPerson" class="form-control">
+                          <option selected>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5+</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputDate" class="col-form-label">Date</label>
+                        <input type="date" class="form-control" id="inputDate">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputTime" class="col-form-label">Time</label>
+                        <select name="Time" id="inputTime" class="form-control">
+														<option >7:00am</option>
+														<option >7:30am</option>
+														<option >8:00am</option>
+														<option >8:30am</option>
+														<option >9:00am</option>
+														<option >9:30am</option>
+														<option >10:00am</option>
+														<option >10:30am</option>
+														<option >11:00am</option>
+														<option >11:30am</option>
+														<option >12:00am</option>
+														<option >12:30am</option>
+														<option >1:00pm</option>
+														<option >1:30pm</option>
+														<option >2:00pm</option>
+														<option >2:30pm</option>
+														<option >3:00pm</option>
+														<option >3:30pm</option>
+														<option >4:00pm</option>
+														<option >4:30pm</option>
+														<option >5:00pm</option>
+														<option >5:30pm</option>
+														<option >6:00pm</option>
+														<option >6:30pm</option>
+														<option >7:00pm</option>
+														<option >7:30pm</option>
+														<option >8:00pm</option>
+														<option >8:30pm</option>
+														<option >9:00pm</option>
+														<option >9:30pm</option>
+														<option >10:00pm</option>
+														<option >10:30pm</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary">Book a table</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </header>
 
+<!--About section -->
     <section id="about">
       <div class="container">
         <div class="row">
@@ -81,7 +178,7 @@
             <div class="row justify-content-around">
               <div class="col-sm-12 col-lg-6 ">
                 <p class="text-muted mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Our menu</a>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#menu">Our menu</a>
               </div>
               <div class="col-sm-12 col-lg-6">
                 <img src="img/about.jpg" alt="about me" class="img-fluid">
@@ -93,6 +190,7 @@
       </div>
     </section>
 
+    <!--Menu Section -->
     <section class="p-0" id="menu">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
@@ -102,7 +200,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Delight
                   </div>
                   <div class="project-name">
                     Project Name
@@ -186,6 +284,51 @@
               </div>
             </a>
           </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/7.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/7.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/8.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/8.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/9.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/9.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -195,7 +338,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">Your Service</h2>
             <hr class="my-4">
           </div>
         </div>
@@ -205,28 +348,28 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
+              <h3 class="mb-3">catering</h3>
               <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
+              <h3 class="mb-3">Home Delivery</h3>
               <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-              <h3 class="mb-3">Up to Date</h3>
+              <h3 class="mb-3">Reservation</h3>
               <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-              <h3 class="mb-3">Made with Love</h3>
+              <h3 class="mb-3">Cooking classes</h3>
               <p class="text-muted mb-0">You have to make your websites with love these days!</p>
             </div>
           </div>
@@ -234,14 +377,7 @@
       </div>
     </section>
 
-    <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        
-      </div>
-    </section>
-
-    <section id="contact">
+    <section  class="bg-dark text-white" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -258,7 +394,7 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="mailto:phenyo.legend@gmail.com">hello@marklegend.com</a>
+              <a href="mailto:phenyo.legend@gmail.com">Drop me an email</a>
             </p>
           </div>
         </div>

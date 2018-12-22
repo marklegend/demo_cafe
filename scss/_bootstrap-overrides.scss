@@ -26,6 +26,21 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(239, 243, 31, 0.952) !important;
   }
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: rgb(163, 163, 163);
+}
+
+.col-form-label {
+  padding-top: calc(-0.625rem + 1px);
+  padding-bottom: calc(.375rem + 1px);
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1.5;
+  color: rgb(78, 78, 78);
 }
