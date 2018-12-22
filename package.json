@@ -1,8 +1,8 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
-    "version": "5.0.1",
-    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+    "title": "Tino's Cafe",
+    "name": "Restaurant template",
+    "version": "1.0.0",
+    "description": "A Fresh and easy to style template for anyone who wants to use",
     "keywords": [
         "css",
         "sass",
@@ -14,16 +14,16 @@
     "homepage": "https://startbootstrap.com/template-overviews/creative",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
+        "email": "phenyo.legend@gmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Mark Legend Studio",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Phenyo M E Mokgadi (https://github.com/marklegend/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+        "url": "https://github.com/marklegend/demo_food.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.3.1",
